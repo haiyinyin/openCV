@@ -1,4 +1,3 @@
-
 #include "Stiching.h"
 void Stiching :: run(){
     vector<Mat> imgs;

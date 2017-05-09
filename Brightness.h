@@ -2,8 +2,8 @@
 // Created by xhy0908 on 2017/4/30.
 //
 
-#ifndef PANDA_STICHING_H
-#define PANDA_STICHING_H
+#ifndef PANDA_BRIGHTNESS_H
+#define PANDA_BRIGHTNESS_H
 #include "Action.h"
 #include <opencv2/imgproc.hpp>
 #include <opencv2/core.hpp>
@@ -13,12 +13,10 @@
 #include <iostream>
 #include <string>
 
-
-class Stiching {
+class Brightness {
 public:
     virtual void run();
-
 };
 
 
-#endif //PANDA_STICHING_H
+#endif //PANDA_BRIGHTNESS_H
